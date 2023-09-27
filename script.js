@@ -6,7 +6,10 @@ const life = {
     diet: ['vegetarian', 'omnivore', 'vegan'],
 };
 
+const random = (min, max) => Math.floor(Math.random() * (max - min)) + min;
 
+let i = random(0, life.countries.length);
+let j = random(0, life.jobs.length);
+let k = random(0, life.diet.length);
 
-console.log(`you live in ${countries[i]} and you are a/an ${jobs[j]}. And, finally, yout diet is ${diet[k]}`);
-
+console.log(`You live in ${life.countries[i]}, you are a ${life.jobs[j]}, and your diet is ${life.diet[k]}.`);
