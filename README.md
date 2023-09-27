@@ -7,4 +7,4 @@
 - the job you do.
 
 You can easily expand on this script to make it more fun. Enjoy. 
-by [Ubeyd](https://github.com/Ubeydu)
+Written by [Ubeyd](https://github.com/Ubeydu)
